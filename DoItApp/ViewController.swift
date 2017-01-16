@@ -62,6 +62,9 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         
     }
     
+    @IBAction func plusTapped(_ sender: Any) {
+        performSegue(withIdentifier: "addSeque", sender: nil)
+    }
     
 }
 
